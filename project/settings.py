@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     # добавляем нужное нам в данный момент приложение
     'django.contrib.sites',
     'django.contrib.flatpages',
-    'django.contrib.fpages',
+    'my_pages',
 ]
 
 # id нашего сайта
