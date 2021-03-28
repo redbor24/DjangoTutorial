@@ -39,8 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # добавляем нужное нам в данный момент приложение
+    # стандартные
     'django.contrib.sites',
     'django.contrib.flatpages',
+    # наше самописное :)))
     'my_pages',
 ]
 
@@ -129,3 +131,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static"
+]
+
